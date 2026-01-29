@@ -1,6 +1,6 @@
 # Financial Data RAG System - API Documentation
 
-![RAG Architecture](https://github.com/user-attachments/assets/rag-architecture-diagram.png)
+![RAG Architecture](architecture.png)
 
 ## Overview
 
