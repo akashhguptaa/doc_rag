@@ -16,7 +16,9 @@ import uvicorn
 
 from vector_search import create_search_engine
 from rag_agent import create_rag_agent
+from dotenv import load_dotenv
 
+load_dotenv()
 # Configure logging
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s - %(name)s - %(levelname)s - %(message)s"

@@ -38,7 +38,7 @@ class FinancialRAGAgent:
         self,
         vector_search_engine: VectorSearchEngine,
         gemini_api_key: str = None,
-        model_name: str = "gemini-1.5-flash",
+        model_name: str = "gemini-3-flash-preview",
     ):
         """
         Initialize the RAG agent
