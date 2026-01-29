@@ -1,8 +1,16 @@
 # Financial Data RAG System - API Documentation
 
+![RAG Architecture](https://github.com/user-attachments/assets/rag-architecture-diagram.png)
+
 ## Overview
 
 This is a production-ready RAG (Retrieval-Augmented Generation) system for financial data analysis with WebSocket support for real-time conversations.
+
+### RAG Pipeline
+The system implements a three-stage architecture as shown above:
+1. **Retrieval**: Documents are chunked and embedded into a vector database (FAISS)
+2. **Augmented**: User queries are enriched with retrieved context using prompt templates  
+3. **Generation**: The LLM (Google Gemini) generates intelligent responses based on augmented context
 
 ## Architecture
 
